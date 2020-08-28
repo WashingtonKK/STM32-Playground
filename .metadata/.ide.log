@@ -509,3 +509,581 @@
 2020-08-27 17:05:39,341 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 5232mS.
 2020-08-27 17:05:39,342 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
 2020-08-27 17:05:39,345 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-08-28 16:22:22,048 [INFO] Activator:178 - 
+
+
+2020-08-28 16:22:22,230 [INFO] Activator:179 - !SESSION log4j initialized
+2020-08-28 16:24:50,610 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2020-08-28 16:24:50,688 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2020-08-28 16:24:50,697 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2020-08-28 16:24:50,698 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:50,699 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:50,705 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:50,889 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:50,894 [INFO] DbMcusJson:63 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:50,896 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:50,899 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:51,114 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-08-28 16:24:51,122 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:51,628 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2020-08-28 16:24:52,560 [INFO] MicroXplorer:564 - Detected Java Version = 1.8.0_252
+2020-08-28 16:24:52,561 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2020-08-28 16:24:52,561 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2020-08-28 16:24:52,563 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:52,564 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:52,564 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:52,565 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:52,566 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:52,569 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:52,569 [INFO] DbMcusJson:63 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:52,570 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:52,571 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:52,572 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:52,572 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:52,573 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:52,573 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:52,573 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-08-28 16:24:52,574 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:52,574 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:53,554 [INFO] MainPanel:189 - HeapMemory: 304087040
+2020-08-28 16:24:54,151 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2020-08-28 16:24:54,151 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2020-08-28 16:24:54,152 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:54,152 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:54,152 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2020-08-28 16:24:54,176 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:54,176 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:54,177 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:54,177 [INFO] DbMcusJson:63 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:54,178 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:54,178 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:54,178 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:54,179 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:54,179 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:54,179 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:54,180 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-08-28 16:24:54,180 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder/ => C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder
+2020-08-28 16:24:54,180 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder//mcu/
+2020-08-28 16:24:54,400 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2020-08-28 16:24:54,422 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2020-08-28 16:24:54,461 [INFO] PluginManage:292 - Check plugin analytics
+2020-08-28 16:24:59,984 [INFO] AnalyticsPlugin:203 - Accepted Software Licenses: 
+2020-08-28 16:24:59,985 [INFO] AnalyticsPlugin:205 - Accepted CMSIS Pack Licenses: 
+2020-08-28 16:24:59,986 [INFO] AnalyticsPlugin:207 - Accepted Firmware Licenses: 
+2020-08-28 16:24:59,987 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-08-28 16:24:59,987 [INFO] PluginManage:292 - Check plugin clock
+2020-08-28 16:25:00,067 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-08-28 16:25:00,068 [INFO] PluginManage:292 - Check plugin ddr
+2020-08-28 16:25:00,090 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-08-28 16:25:00,091 [INFO] PluginManage:292 - Check plugin filemanager
+2020-08-28 16:25:00,638 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-08-28 16:25:00,639 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-08-28 16:25:00,837 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-08-28 16:25:00,838 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-08-28 16:25:00,956 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-08-28 16:25:00,957 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-08-28 16:25:01,196 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-08-28 16:25:01,197 [INFO] PluginManage:292 - Check plugin power
+2020-08-28 16:25:01,285 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-08-28 16:25:01,285 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-08-28 16:25:01,311 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-08-28 16:25:01,312 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-08-28 16:25:01,515 [INFO] ThirdPartyDb:333 - Open Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 1 ms. number of Sw pack : 0
+2020-08-28 16:25:01,544 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-08-28 16:25:01,545 [INFO] PluginManage:292 - Check plugin tools
+2020-08-28 16:25:01,648 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-08-28 16:25:01,649 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-08-28 16:25:02,351 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2020-08-28 16:25:02,351 [INFO] PluginManage:292 - Check plugin updater
+2020-08-28 16:25:02,508 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-08-28 16:25:02,509 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2020-08-28 16:25:03,997 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-28 16:25:04,860 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:04,861 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-08-28 16:25:04,944 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:04,945 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-08-28 16:25:05,024 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,024 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-08-28 16:25:05,091 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,091 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-08-28 16:25:05,210 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,210 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-08-28 16:25:05,310 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,310 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-08-28 16:25:05,352 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,354 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-08-28 16:25:05,430 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,430 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-08-28 16:25:05,627 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,628 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-08-28 16:25:05,722 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,723 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-08-28 16:25:05,797 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:05,798 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-08-28 16:25:06,098 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:06,099 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-08-28 16:25:06,427 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:06,427 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-08-28 16:25:06,495 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:06,496 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-08-28 16:25:06,664 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:06,664 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-08-28 16:25:06,759 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:06,760 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-08-28 16:25:06,905 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:06,906 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-08-28 16:25:07,084 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,085 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-08-28 16:25:07,156 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,157 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-08-28 16:25:07,274 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,275 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-08-28 16:25:07,311 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,312 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-08-28 16:25:07,360 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,362 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-08-28 16:25:07,466 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,467 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-08-28 16:25:07,720 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,721 [INFO] PluginManager:200 - loadIPPluginJar : add openamp
+2020-08-28 16:25:07,890 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,890 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-08-28 16:25:07,964 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:07,971 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-08-28 16:25:08,052 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,053 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-08-28 16:25:08,102 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,103 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-08-28 16:25:08,245 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,246 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-08-28 16:25:08,357 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,357 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-08-28 16:25:08,465 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,466 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-08-28 16:25:08,549 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,550 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-08-28 16:25:08,786 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,787 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-08-28 16:25:08,875 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,875 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-08-28 16:25:08,961 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:08,962 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-08-28 16:25:09,027 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:09,027 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-08-28 16:25:09,101 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:09,102 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-08-28 16:25:09,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:25:09,234 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-08-28 16:25:12,433 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: null
+2020-08-28 16:25:15,028 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-08-28 16:25:16,933 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-08-28 16:25:16,933 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-08-28 16:25:16,934 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-08-28 16:25:16,936 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-08-28 16:25:16,942 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-28 16:25:16,943 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-08-28 16:25:17,042 [ERROR] Updater:967 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2020-08-28 16:25:17,046 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2020-08-28 16:25:17,079 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin\STM32_Programmer_CLI.exe -l
+2020-08-28 16:25:22,005 [INFO] MainDdrPanel:49 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2020-08-28 16:25:22,648 [INFO] Updater:904 - Updater Version found : 6.0.0
+2020-08-28 16:25:22,866 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2020-08-28 16:25:24,306 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-28 16:25:24,307 [INFO] MainUpdater:239 - Updater Check For Update Now.
+2020-08-28 16:25:24,308 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-08-28 16:25:24,450 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2020-08-28 16:25:24,479 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-28 16:25:25,715 [WARN] IntegrityCheckThread:61 - waiting for thirdparty lock release [integrity check]
+2020-08-28 16:25:25,715 [INFO] IntegrityCheckThread:63 - entering critical section [integrity check]
+2020-08-28 16:25:26,367 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:26,468 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-08-28 16:25:26,601 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : CMSIS Core with RTOS2 cause : null
+2020-08-28 16:25:26,601 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver ETH cause : null
+2020-08-28 16:25:26,602 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver PPP cause : null
+2020-08-28 16:25:26,602 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver SLIP cause : null
+2020-08-28 16:25:26,602 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Core cause : null
+2020-08-28 16:25:26,603 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver SLIP cause : null
+2020-08-28 16:25:26,603 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver PPP cause : null
+2020-08-28 16:25:26,603 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : CMSIS Core with RTOS2 cause : null
+2020-08-28 16:25:26,603 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Core cause : null
+2020-08-28 16:25:26,604 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver ETH cause : null
+2020-08-28 16:25:26,604 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : CMSIS Core with RTOS2 cause : null
+2020-08-28 16:25:26,604 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver ETH cause : null
+2020-08-28 16:25:26,604 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver PPP cause : null
+2020-08-28 16:25:26,605 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver SLIP cause : null
+2020-08-28 16:25:26,605 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Core cause : null
+2020-08-28 16:25:26,606 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:26,725 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : CMSIS Core with RTOS2 cause : null
+2020-08-28 16:25:26,726 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver ETH cause : null
+2020-08-28 16:25:26,726 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver PPP cause : null
+2020-08-28 16:25:26,727 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver SLIP cause : null
+2020-08-28 16:25:26,727 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Core cause : null
+2020-08-28 16:25:26,727 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver SLIP cause : null
+2020-08-28 16:25:26,727 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver PPP cause : null
+2020-08-28 16:25:26,727 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : CMSIS Core with RTOS2 cause : null
+2020-08-28 16:25:26,727 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Core cause : null
+2020-08-28 16:25:26,728 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver ETH cause : null
+2020-08-28 16:25:26,730 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : CMSIS Core with RTOS2 cause : null
+2020-08-28 16:25:26,732 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver ETH cause : null
+2020-08-28 16:25:26,733 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver PPP cause : null
+2020-08-28 16:25:26,733 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Driver SLIP cause : null
+2020-08-28 16:25:26,733 [ERROR] ConditionMgr:1027 - genDependencies : Invalid condition id : Network Core cause : null
+2020-08-28 16:25:26,734 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:26,806 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:26,940 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:27,051 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:27,102 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-08-28 16:25:27,127 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2020-08-28 16:25:27,133 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2020-08-28 16:25:27,144 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/families.xml
+2020-08-28 16:25:27,157 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:27,245 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:27,331 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:27,447 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:27,573 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:27,790 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:28,191 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:28,785 [INFO] Engine:289 - softwarePackList size : 13
+2020-08-28 16:25:28,867 [INFO] Engine:305 - compute dependency for SwPack FreeRTOS have been done, no update is requested
+2020-08-28 16:25:28,867 [INFO] Engine:305 - compute dependency for SwPack lwIP have been done, no update is requested
+2020-08-28 16:25:28,867 [INFO] Engine:305 - compute dependency for SwPack lwIP have been done, no update is requested
+2020-08-28 16:25:28,867 [INFO] Engine:305 - compute dependency for SwPack MBEDTLS have been done, no update is requested
+2020-08-28 16:25:28,868 [INFO] Engine:305 - compute dependency for SwPack MBEDTLS have been done, no update is requested
+2020-08-28 16:25:28,868 [INFO] Engine:305 - compute dependency for SwPack PDM2PCM have been done, no update is requested
+2020-08-28 16:25:28,868 [INFO] Engine:305 - compute dependency for SwPack PDM2PCM have been done, no update is requested
+2020-08-28 16:25:28,868 [INFO] Engine:305 - compute dependency for SwPack PDM2PCM have been done, no update is requested
+2020-08-28 16:25:28,879 [INFO] Engine:305 - compute dependency for SwPack USB_DEVICE have been done, no update is requested
+2020-08-28 16:25:28,879 [INFO] Engine:305 - compute dependency for SwPack USB_DEVICE have been done, no update is requested
+2020-08-28 16:25:28,879 [INFO] Engine:305 - compute dependency for SwPack USB_DEVICE have been done, no update is requested
+2020-08-28 16:25:28,881 [INFO] Engine:305 - compute dependency for SwPack USB_HOST have been done, no update is requested
+2020-08-28 16:25:28,881 [INFO] Engine:305 - compute dependency for SwPack USB_HOST have been done, no update is requested
+2020-08-28 16:25:28,885 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,886 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,886 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,887 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,888 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,888 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,888 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,905 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,906 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,906 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,907 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,908 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,909 [WARN] XmlIntegratedPack:130 - No IP in current MCU
+2020-08-28 16:25:28,910 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:28,991 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:29,248 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:29,381 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:29,441 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/WASHINGTON/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-28 16:25:30,184 [INFO] DbMcusJson:92 - JSON generation date=Mon Jul 27 15:58:30 EAT 2020 (1595854710)
+2020-08-28 16:25:30,315 [INFO] IntegrityCheckThread:76 - exiting critical section [integrity check]
+2020-08-28 16:25:30,316 [INFO] IntegrityCheckThread:79 - End integrity checks thread
+2020-08-28 16:25:32,966 [INFO] DbMcus:175 - Found 1761 MCUs (1722 are supported by CubeMX, 1728 are visible in CubeMX)
+2020-08-28 16:25:33,028 [INFO] ApiDb:201 - Load user favorites file C:\Users\WASHINGTON/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2020-08-28 16:25:33,043 [INFO] ApiDb:205 - User favorites MCUs=[STM32F103C8Tx]
+2020-08-28 16:25:33,055 [INFO] DbMcus:187 - Set 1 / 1 favorites MCUs
+2020-08-28 16:25:38,801 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2020-08-28 16:25:39,849 [INFO] DetailPanel:331 - Set advertising image to C:/Users/WASHINGTON/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2020-08-28 16:25:41,844 [INFO] McuFilterPanel:245 - Update 1 favorites MCUs
+2020-08-28 16:25:42,549 [INFO] DbBoardsPdsc:94 - Found 23 items
+2020-08-28 16:25:42,570 [INFO] DbBoardsPdsc:94 - Found 9 items
+2020-08-28 16:25:42,597 [INFO] DbBoardsPdsc:94 - Found 29 items
+2020-08-28 16:25:42,616 [INFO] DbBoardsPdsc:94 - Found 1 items
+2020-08-28 16:25:42,651 [INFO] DbBoardsPdsc:94 - Found 44 items
+2020-08-28 16:25:42,750 [INFO] DbBoardsPdsc:94 - Found 40 items
+2020-08-28 16:25:42,796 [INFO] DbBoardsPdsc:94 - Found 2 items
+2020-08-28 16:25:42,844 [INFO] DbBoardsPdsc:94 - Found 4 items
+2020-08-28 16:25:42,871 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2020-08-28 16:25:42,873 [WARN] DbBoardsPdsc:258 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2020-08-28 16:25:42,883 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2020-08-28 16:25:42,884 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2020-08-28 16:25:42,884 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2020-08-28 16:25:43,057 [INFO] DbBoardsJson:85 - JSON generation date=Thu Jul 02 16:35:57 EAT 2020 (1593696957)
+2020-08-28 16:25:43,126 [INFO] DbBoards:117 - Found 152 boards (149 are supported by CubeMX)
+2020-08-28 16:25:43,284 [INFO] DbBoardsDocs:145 - JSON generation date=Mon Jul 27 15:58:30 EAT 2020 (1595854710)
+2020-08-28 16:25:43,438 [INFO] DbBoardsDocs:81 - Found 185 boards documents
+2020-08-28 16:25:43,439 [WARN] DbBoards:149 - board B-G474E-DPOW1 / document id not found: 4624
+2020-08-28 16:25:43,439 [WARN] DbBoards:149 - board B-G474E-DPOW1 / document id not found: 4625
+2020-08-28 16:25:43,439 [WARN] DbBoards:127 - board B-L462E-CELL1 has no document id list !
+2020-08-28 16:25:43,440 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2020-08-28 16:25:43,443 [WARN] DbBoards:127 - board NUCLEO-G491RE has no document id list !
+2020-08-28 16:25:43,443 [WARN] DbBoards:127 - board NUCLEO-H723ZG has no document id list !
+2020-08-28 16:25:43,444 [WARN] DbBoards:127 - board NUCLEO-H743ZI2 has no document id list !
+2020-08-28 16:25:43,448 [WARN] DbBoards:127 - board NUCLEO-WB55RG has no document id list !
+2020-08-28 16:25:43,449 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-08-28 16:25:43,450 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-08-28 16:25:43,450 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2020-08-28 16:25:43,450 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2020-08-28 16:25:43,450 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2020-08-28 16:25:43,450 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2020-08-28 16:25:43,451 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-08-28 16:25:43,451 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2020-08-28 16:25:43,452 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2020-08-28 16:25:43,454 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2020-08-28 16:25:43,455 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2020-08-28 16:25:43,455 [WARN] DbBoards:127 - board STM32H735G-DK has no document id list !
+2020-08-28 16:25:43,455 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2020-08-28 16:25:43,456 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2020-08-28 16:25:43,457 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2020-08-28 16:25:43,458 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2020-08-28 16:25:43,461 [WARN] DbBoards:127 - board STM32MP157A-DK1 has no document id list !
+2020-08-28 16:25:43,463 [WARN] DbBoards:127 - board STM32MP157F-EV1 has no document id list !
+2020-08-28 16:25:44,593 [ERROR] DbBoards:192 - No image file URL for board B-L462E-CELL1
+2020-08-28 16:25:52,334 [INFO] ApiDb:192 - User favorites file not found: C:\Users\WASHINGTON/.stm32cubeide/favorites.boards.txt
+2020-08-28 16:25:52,334 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2020-08-28 16:27:14,329 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-28 16:27:14,618 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-08-28 16:27:14,658 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-08-28 16:27:14,659 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2020-08-28 16:27:14,660 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2020-08-28 16:27:15,420 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2020-08-28 16:27:15,423 [INFO] DetailPanel:331 - Set advertising image to C:/Users/WASHINGTON/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2020-08-28 16:27:15,890 [INFO] McuFilterPanel:245 - Update 1 favorites MCUs
+2020-08-28 16:28:54,406 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-28 16:28:54,592 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-08-28 16:28:54,628 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-08-28 16:28:54,633 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2020-08-28 16:28:54,633 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2020-08-28 16:28:54,898 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2020-08-28 16:28:54,899 [INFO] DetailPanel:331 - Set advertising image to C:/Users/WASHINGTON/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2020-08-28 16:28:55,319 [INFO] McuFilterPanel:245 - Update 1 favorites MCUs
+2020-08-28 16:29:24,364 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-28 16:29:24,593 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-08-28 16:29:24,622 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\WASHINGTON\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-08-28 16:29:24,628 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2020-08-28 16:29:24,629 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2020-08-28 16:29:24,879 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2020-08-28 16:29:24,879 [INFO] DetailPanel:331 - Set advertising image to C:/Users/WASHINGTON/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2020-08-28 16:29:25,244 [INFO] McuFilterPanel:245 - Update 1 favorites MCUs
+2020-08-28 16:30:45,380 [INFO] DbMcusDocs:145 - JSON generation date=Mon Jul 27 15:58:30 EAT 2020 (1595854710)
+2020-08-28 16:30:46,001 [INFO] DbMcusDocs:81 - Found 580 MCUs documents
+2020-08-28 16:31:05,916 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
+2020-08-28 16:31:11,259 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-28 16:31:11,260 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-28 16:31:11,456 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-08-28 16:31:11,457 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-08-28 16:31:11,457 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-08-28 16:31:11,458 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-08-28 16:31:11,458 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-08-28 16:31:11,462 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-28 16:31:11,463 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 437462680 Bytes (651165696)
+2020-08-28 16:31:11,466 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-08-28 16:31:11,467 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-08-28 16:31:11,467 [INFO] OpenFileManager:274 - Change cursor
+2020-08-28 16:31:17,667 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2020-08-28 16:31:17,667 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2020-08-28 16:31:17,668 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2020-08-28 16:31:17,844 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-08-28 16:31:17,845 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-08-28 16:31:17,845 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-08-28 16:31:17,846 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-08-28 16:31:17,846 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1598621126270
+2020-08-28 16:31:18,338 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 393012144 Bytes (651165696)
+2020-08-28 16:31:18,342 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-08-28 16:31:18,342 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-08-28 16:31:18,342 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2020-08-28 16:31:18,343 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-08-28 16:31:18,343 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2020-08-28 16:31:18,343 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2020-08-28 16:31:18,343 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2020-08-28 16:31:18,344 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2020-08-28 16:31:18,344 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2020-08-28 16:31:18,344 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2020-08-28 16:31:18,344 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2020-08-28 16:31:18,344 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2020-08-28 16:31:18,344 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2020-08-28 16:31:18,345 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2020-08-28 16:31:18,345 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2020-08-28 16:31:18,345 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-08-28 16:31:19,047 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-28 16:31:19,050 [INFO] PinOutPanel:1418 - setPackage(STM32F103C8Tx,LQFP48)
+2020-08-28 16:31:20,149 [INFO] UtilMem:74 - Before build in PCC Used Memory: 431583000 Bytes (651165696)
+2020-08-28 16:31:21,685 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/WASHINGTON/.stm32cubemx/plugins/power
+2020-08-28 16:31:21,940 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/WASHINGTON/.stm32cubemx/plugins/power
+2020-08-28 16:31:22,106 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/WASHINGTON/.stm32cubemx/plugins/power
+2020-08-28 16:31:22,131 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/WASHINGTON/.stm32cubemx/plugins/power
+2020-08-28 16:31:22,770 [INFO] UtilMem:74 - After build in PCC Used Memory: 486111048 Bytes (651165696)
+2020-08-28 16:31:22,816 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,816 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,817 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,817 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,818 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,818 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,819 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,819 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,820 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,820 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,821 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,821 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,822 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,822 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,823 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,823 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,824 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,824 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,824 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,825 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,825 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,825 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,826 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,826 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,827 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,827 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:22,827 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-28 16:31:23,035 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-08-28 16:31:23,437 [INFO] OpenFileManager:294 - Restore cursor
+2020-08-28 16:31:24,269 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 534510608 Bytes (651165696)
+2020-08-28 16:31:24,620 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 539753488 Bytes (651165696)
+2020-08-28 16:31:26,323 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-08-28 16:31:26,323 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-08-28 16:31:26,324 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-08-28 16:31:26,337 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2020-08-28 16:31:30,091 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\license.tmp_save
+2020-08-28 16:31:33,908 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\license.tmp
+2020-08-28 16:31:35,229 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_it.c_save
+2020-08-28 16:31:38,263 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_it.c
+2020-08-28 16:31:38,463 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_it.h_save
+2020-08-28 16:31:40,619 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_it.h
+2020-08-28 16:31:41,003 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_hal_msp.c_save
+2020-08-28 16:31:42,439 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_hal_msp.c
+2020-08-28 16:31:42,616 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\system.tmp_save
+2020-08-28 16:31:43,314 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\system.tmp
+2020-08-28 16:31:43,616 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-08-28 16:31:45,106 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_hal_conf.h
+2020-08-28 16:31:46,025 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\main.h_save
+2020-08-28 16:31:46,850 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\main.h
+2020-08-28 16:31:47,103 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\main.c_save
+2020-08-28 16:31:48,082 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\main.c
+2020-08-28 16:31:56,637 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 3141mS.
+2020-08-28 16:31:56,659 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-08-28 16:31:58,620 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-08-28 16:31:59,025 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2020-08-28 16:31:59,199 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2020-08-28 16:31:59,320 [INFO] ApiDbMcu:456 - Load IP Config File for USB_DEVICE
+2020-08-28 16:33:16,973 [ERROR] root:96 - SUCCESS
+2020-08-28 16:33:18,390 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 81731mS.
+2020-08-28 16:33:18,420 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 16mS.
+2020-08-28 16:33:18,453 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-08-28 16:33:23,576 [INFO] ApiDb:226 - Save user favorites file C:\Users\WASHINGTON/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2020-08-28 16:33:23,840 [INFO] ApiDb:230 - User favorites MCUs=[STM32F103C8Tx]
+2020-08-28 16:48:12,106 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 766723040 Bytes (1073741824)
+2020-08-28 16:48:14,295 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 775994584 Bytes (1073741824)
+2020-08-28 16:48:20,207 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 843103448 Bytes (1073741824)
+2020-08-28 16:48:20,673 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-08-28 16:48:20,674 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-08-28 16:48:20,674 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-08-28 16:48:20,674 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-08-28 16:48:20,676 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2020-08-28 16:48:21,401 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\license.tmp_save
+2020-08-28 16:48:21,598 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\license.tmp
+2020-08-28 16:48:21,992 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\gpio.tmp_save
+2020-08-28 16:48:22,300 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\gpio.tmp
+2020-08-28 16:48:22,503 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_it.c_save
+2020-08-28 16:48:22,826 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_it.c
+2020-08-28 16:48:23,012 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_it.h_save
+2020-08-28 16:48:24,478 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_it.h
+2020-08-28 16:48:24,564 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_hal_msp.c_save
+2020-08-28 16:48:24,899 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_hal_msp.c
+2020-08-28 16:48:24,982 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\system.tmp_save
+2020-08-28 16:48:25,095 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\system.tmp
+2020-08-28 16:48:25,186 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-08-28 16:48:25,553 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_hal_conf.h
+2020-08-28 16:48:25,614 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-08-28 16:48:25,616 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-08-28 16:48:25,679 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\main.h_save
+2020-08-28 16:48:25,833 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\main.h
+2020-08-28 16:48:25,973 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\main.c_save
+2020-08-28 16:48:28,025 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\main.c
+2020-08-28 16:48:29,798 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 753mS.
+2020-08-28 16:48:29,801 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-08-28 16:48:30,207 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-08-28 16:48:38,201 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 8400mS.
+2020-08-28 16:48:38,202 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-08-28 16:48:38,208 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-08-28 16:55:38,709 [INFO] Gpio:250 - dependency for GPIO [RCC, SYS]
+2020-08-28 16:57:13,530 [INFO] Gpio:250 - dependency for GPIO [RCC, SYS]
+2020-08-28 16:58:28,175 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,175 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,206 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,206 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,207 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,207 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,288 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,288 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,291 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,291 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,300 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:28,300 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-08-28 16:58:41,279 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 641306232 Bytes (1073741824)
+2020-08-28 16:58:42,708 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 649816864 Bytes (1073741824)
+2020-08-28 16:58:46,579 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 698854264 Bytes (1073741824)
+2020-08-28 16:58:47,131 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-08-28 16:58:47,131 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USART
+2020-08-28 16:58:47,132 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-08-28 16:58:47,132 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-08-28 16:58:47,132 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-08-28 16:58:47,134 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2020-08-28 16:58:47,783 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\license.tmp_save
+2020-08-28 16:58:47,953 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\license.tmp
+2020-08-28 16:58:48,050 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\gpio.tmp_save
+2020-08-28 16:58:48,285 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\gpio.tmp
+2020-08-28 16:58:48,512 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-08-28 16:58:48,721 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_it.c_save
+2020-08-28 16:58:48,970 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_it.c
+2020-08-28 16:58:49,035 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_it.h_save
+2020-08-28 16:58:49,370 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_it.h
+2020-08-28 16:58:49,505 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_hal_msp.c_save
+2020-08-28 16:58:50,134 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_hal_msp.c
+2020-08-28 16:58:50,296 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\system.tmp_save
+2020-08-28 16:58:50,438 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\system.tmp
+2020-08-28 16:58:50,651 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-08-28 16:58:50,958 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_hal_conf.h
+2020-08-28 16:58:51,004 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-08-28 16:58:51,006 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-08-28 16:58:51,086 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\main.h_save
+2020-08-28 16:58:51,555 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\main.h
+2020-08-28 16:58:51,649 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\main.c_save
+2020-08-28 16:58:52,201 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\main.c
+2020-08-28 16:58:53,705 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 580mS.
+2020-08-28 16:58:53,714 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-08-28 16:58:54,372 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-08-28 16:59:01,764 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 8050mS.
+2020-08-28 16:59:01,781 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 17mS.
+2020-08-28 16:59:01,823 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-08-28 17:12:06,553 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 742782552 Bytes (1073741824)
+2020-08-28 17:12:08,004 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 751662016 Bytes (1073741824)
+2020-08-28 17:12:12,692 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 804813768 Bytes (1073741824)
+2020-08-28 17:12:13,257 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-08-28 17:12:13,257 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USART
+2020-08-28 17:12:13,257 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USART
+2020-08-28 17:12:13,258 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-08-28 17:12:13,258 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-08-28 17:12:13,258 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-08-28 17:12:13,260 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2020-08-28 17:12:14,215 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\license.tmp_save
+2020-08-28 17:12:14,396 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\license.tmp
+2020-08-28 17:12:14,581 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\gpio.tmp_save
+2020-08-28 17:12:14,748 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\gpio.tmp
+2020-08-28 17:12:15,051 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-08-28 17:12:15,234 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_it.c_save
+2020-08-28 17:12:15,430 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_it.c
+2020-08-28 17:12:15,495 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_it.h_save
+2020-08-28 17:12:15,810 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_it.h
+2020-08-28 17:12:15,963 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_hal_msp.c_save
+2020-08-28 17:12:16,197 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\stm32f1xx_hal_msp.c
+2020-08-28 17:12:16,257 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\system.tmp_save
+2020-08-28 17:12:16,412 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\MXTmpFiles\system.tmp
+2020-08-28 17:12:16,552 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-08-28 17:12:16,782 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\stm32f1xx_hal_conf.h
+2020-08-28 17:12:16,813 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-08-28 17:12:16,814 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-08-28 17:12:16,886 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\main.h_save
+2020-08-28 17:12:17,078 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Inc\main.h
+2020-08-28 17:12:17,168 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\main.c_save
+2020-08-28 17:12:17,447 [INFO] CodeEngine:206 - Generated code: C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\UART\Core\Src\main.c
+2020-08-28 17:12:19,931 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 1757mS.
+2020-08-28 17:12:19,936 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-08-28 17:12:21,768 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-08-28 17:12:25,823 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 5887mS.
+2020-08-28 17:12:25,826 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-08-28 17:12:25,852 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
