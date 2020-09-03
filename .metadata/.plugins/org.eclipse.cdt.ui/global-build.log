@@ -1,7 +1,17 @@
-17:16:00 **** Incremental Build of configuration Debug for project UART ****
+01:30:07 **** Incremental Build of configuration Debug for project Speed-governor ****
 make -j4 all 
-arm-none-eabi-size   UART.elf 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Speed-governor.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\WASHINGTON\STM32CubeIDE\workspace_1.4.0\Speed-governor\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Speed-governor.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Speed-governor.elf
+ 
+arm-none-eabi-objdump -h -S  Speed-governor.elf  > "Speed-governor.list"
+arm-none-eabi-objcopy  -O binary  Speed-governor.elf  "Speed-governor.bin"
+arm-none-eabi-size   Speed-governor.elf 
    text	   data	    bss	    dec	    hex	filename
-   6288	     20	   1700	   8008	   1f48	UART.elf
+   5800	     20	   1764	   7584	   1da0	Speed-governor.elf
 Finished building: default.size.stdout
+ 
+Finished building: Speed-governor.bin
+ 
+Finished building: Speed-governor.list
  
