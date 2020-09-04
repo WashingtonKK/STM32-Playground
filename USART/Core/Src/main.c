@@ -44,7 +44,12 @@ I2C_HandleTypeDef hi2c1;
 
 UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
-
+HAL_StatusTypeDef available;
+int timeout = 10;
+uint8_t buffer [10];
+uint8_t bufferT [] = "ACTIVITY!!-- in while 2\r\n";
+uint8_t bufferR [] = "ACTIVITY!!-- in while 1\r\n";
+uint8_t buffer2 [10];
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -104,7 +109,15 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  while (HAL_UART_Receive(&huart1, buffer, sizeof(buffer), (timeout + 20)) == HAL_OK) {
+		  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), timeout);
+		  //HAL_UART_Transmit(&huart1, bufferR, sizeof(bufferR), timeout); // For debugging purposes
+	  }
+	  while (HAL_UART_Receive(&huart2, buffer2, sizeof(buffer2),(timeout + 20)) == HAL_OK) {
+		  HAL_UART_Transmit(&huart1, buffer2, sizeof(buffer2), timeout);
+		  //HAL_UART_Transmit(&huart2, bufferT, sizeof(bufferT), timeout); //For debugging purposes
+	  }
+	 // HAL_UART_Transmit(&huart2, bufferT, sizeof(bufferT), timeout);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
